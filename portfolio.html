@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Potfolio</title>
+  <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <div class="bars">
+            <h1>Hamdan Sibdoo Zakaria Hamid</h1>
+    
+            <!-- Hamburger Icon -->
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    
+            <!-- Nav Menu -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#about"> About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section>
+        <section id="about">
+         <div style="text-align: center;">
+         <img src="./images/head.jpg" alt="my picture" width="300">
+        </div>
+
+        <div class="content">
+        <h2>About Me</h2>
+        <br>
+        <p>
+            I am Hamdan Sibdoo Zakaria Hamid, a level 300 BSc Computer Science student at the University for Development Studies. With strong skills in Excel and Word, I am passionate about technology, youth empowerment, and networking. Currently serving as the General Secretary for the Physical Sciences Students Association, I have also held the same role in the Computer Science Society from level 100 to 200. Fluent in Dagbani, English, Hausa, and basic Twi, I enjoy gaming, music, and reading. Additionally, I am engaged in professional development initiatives, including speaking engagements on career guidance and job opportunities in IT and Engineering.
+        </p>
+     </div>
+
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-boarder">
+        <ol>
+            <li> Web Developer(HTML, CSS & JavaScript)</li>
+            <li>Microsoft Office</li>
+            <li>Crypto trader</li>
+            <li>Youth activist</li>
+            <!-- <li>Students Leader</li> -->
+        </ol>
+    </div>
+    </section>
+
+    <section id="project"> 
+        <h2>Projects</h2>
+        <div class="baking">
+            <ul>
+                <li><strong>Database Management System</strong></li>
+                <li><strong>Portfolio Website</strong></li>
+                <li><strong>GPA Calculator</strong></li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Gaming</li>
+            <li>Music</li>
+            <li>Reading</li>
+            <li>Anime</li>
+        </ul>
+    </section>
+
+    <section id="testimonial">
+        <h2>Testimonial</h2>
+        <blockquote>
+            " Hamdan is exceptional leader and Mentor. his guidance has help people to explore more into Computer Science and Cryptocurrency world"
+        </blockquote>
+        <cite>A collegue from the Physical Science Students Association</cite>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <br><br>
+
+            <label for="phone">Phone Num:</label>
+            <input type="tel" name="phone" required>
+            <br><br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy; 2025 Hamdan portfolio</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+          const nav = document.getElementById("nav");
+          nav.classList.toggle("show");
+        }
+      </script>
+      
+</body>
+</html>
